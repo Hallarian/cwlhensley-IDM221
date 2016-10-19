@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+}
+
+nav {
+	background-color: #882601;
+	color: black;
+	text-align: center;
+	line-height: 4em; 
+	height: 4em;
+}
+
+	ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+}
+
+	li {
+    	display: inline;
+		}
+
+	a:link {
+    	color: white;
+		}
+
+h1 {
+    color: white;
+    text-align: right;
+    background-color: #062F4F;
+    line-height: 2em; 
+	height: 2em;
+}
+
+h2 {color: white;
+	background-color: black;
+	line-height: 2em; 
+	height: 2em;
+}
+
+h4 {color: white;
+	background-color: #813772; 
+	line-height: 0em;
+	height: 2em;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-size: .5em;
+	text-align: center;
+	line-height: 5em; 
+	height: 5em;
+}
