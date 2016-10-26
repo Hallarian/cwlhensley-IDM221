@@ -1,13 +1,52 @@
 body {
-    background-color: white;
+    background-color: #dfe2db;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+h1 {
+    color: #dfe2db;
+  	font-family: Tahoma, Verdana, Segoe, sans-serif;
+    text-align: left;
+    background-color: #232323;
+    line-height: 2em; 
+	height: 2em;
+	margin: 0;
+}
+
+h2 {color: #FFF056;
+	background-color: #232323;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	line-height: 2em; 
+	height: 2em;
+	margin: 0;
+}
+
+blockquote {
+	color: #232323;
+	font-family: "Century Gothic","Apple Gothic","URW Gothic L","Avant Garde",sans-serif;
+	font-size: 18px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+h4 {color: #232323;
+	background-color: white; 
+	font-family: Impact, sans-serif;
+	font-weight: normal;
+	line-height: 0em;
+	height: 2em;
+	margin: 0;
 }
 
 nav {
-	background-color: #882601;
+	background-color: white;
 	color: black;
 	text-align: center;
 	line-height: 4em; 
 	height: 4em;
+	margin: 0;
 }
 
 	ul {
@@ -18,31 +57,17 @@ nav {
 
 	li {
     	display: inline;
+    	margin: 0;
 		}
 
-	a:link {
-    	color: white;
-		}
+	a {
+  		margin-left: 30px;
+  		color: #882601;
+  		font-family: Tahoma, Verdana, Segoe, sans-serif;
+  		text-decoration: none;
+  		font-weight: bold;
+	}
 
-h1 {
-    color: white;
-    text-align: right;
-    background-color: #062F4F;
-    line-height: 2em; 
-	height: 2em;
-}
-
-h2 {color: white;
-	background-color: black;
-	line-height: 2em; 
-	height: 2em;
-}
-
-h4 {color: white;
-	background-color: #813772; 
-	line-height: 0em;
-	height: 2em;
-}
 
 .alignleft {
 	float: left;
@@ -51,11 +76,14 @@ h4 {color: white;
 	float: right;
 }
 
+.footer-area {padding: 1px 0px 0px;
+}
+
 footer {
-	background-color: black;
-	color: white;
-	font-size: .5em;
-	text-align: center;
-	line-height: 5em; 
-	height: 5em;
+	background-color: #232323;
+	color: #dfe2db;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	line-height: 18px;
+	height: 12em;
+	margin: 0;
 }
