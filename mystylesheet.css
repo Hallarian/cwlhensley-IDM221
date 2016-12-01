@@ -1,59 +1,133 @@
-body {
-    background-color: #dfe2db;
-    font-family: Arial, helvetica, sans-serif;
+
+
+* {box-sizing: border-box; }
+
+html {
 }
 
+
+/*
+$$$$$$$\                  $$\           
+$$  __$$\                 $$ |          
+$$ |  $$ | $$$$$$\   $$$$$$$ |$$\   $$\ 
+$$$$$$$\ |$$  __$$\ $$  __$$ |$$ |  $$ |
+$$  __$$\ $$ /  $$ |$$ /  $$ |$$ |  $$ |
+$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
+$$$$$$$  |\$$$$$$  |\$$$$$$$ |\$$$$$$$ |
+\_______/  \______/  \_______| \____$$ |
+                              $$\   $$ |
+                              \$$$$$$  |
+                               \______/
+*/
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Spinnaker', sans-serif;
+    padding: 0px 0px;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+	height: 100%;
+}
+
+
+/*
+$$\   $$\                           $$\                     
+$$ |  $$ |                          $$ |                    
+$$ |  $$ | $$$$$$\   $$$$$$\   $$$$$$$ | $$$$$$\   $$$$$$\  
+$$$$$$$$ |$$  __$$\  \____$$\ $$  __$$ |$$  __$$\ $$  __$$\ 
+$$  __$$ |$$$$$$$$ | $$$$$$$ |$$ /  $$ |$$$$$$$$ |$$ |  \__|
+$$ |  $$ |$$   ____|$$  __$$ |$$ |  $$ |$$   ____|$$ |      
+$$ |  $$ |\$$$$$$$\ \$$$$$$$ |\$$$$$$$ |\$$$$$$$\ $$ |      
+\__|  \__| \_______| \_______| \_______| \_______|\__| 
+*/                                                                      
 h1 {
     color: #dfe2db;
-  	font-family: Tahoma, Verdana, Segoe, sans-serif;
+  	font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
     text-align: left;
     background-color: #232323;
-    line-height: 2em; 
-	height: 2em;
+    line-height: 35px; 
+	height: 40px;
+	padding-left: 10px;
+	border: 0em;
 	margin: 0;
 }
 
-h2 {color: #FFF056;
-	background-color: #232323;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	line-height: 2em; 
-	height: 2em;
-	margin: 0;
+h2 {color: #BB4503;
+	background-color: white;
+	font-family: 'Jura', sans-serif;
+	letter-spacing: 2px;
+	line-height: 15px; 
+	height: 30px;
+	padding: 5px;
+	border: 0em;
+	margin: 10px;
 }
+h3 {background-color: none;
+	color: white;
+	font-family: 'Jura', sans-serif;
+	letter-spacing: 2px;
+	text-align: right;
+	line-height: 1em; 
+	padding: 0px 25px 0px 0px;
+    border: 0px;
+    margin: 0px 0px 10px 0px;
+    width: 100%;
+	height: 100%;
 
-blockquote {
-	color: #232323;
-	font-family: "Century Gothic","Apple Gothic","URW Gothic L","Avant Garde",sans-serif;
-	font-size: 18px;
-	font-style: bold;
-	font-variant: normal;
-	font-weight: bold;
-	line-height: 18px;
 }
-
-h4 {color: #232323;
-	background-color: white; 
-	font-family: Impact, sans-serif;
+h4 {color: #882601;
+	background-color: none; 
+	font-family: 'Jura', sans-serif;
 	font-weight: normal;
 	line-height: 0em;
 	height: 2em;
 	margin: 0;
 }
 
+h5 {color: white;
+    font-family: 'Spinnaker', sans-serif;
+    padding: 5px 5px;
+    border: 5px;
+    margin: 5px;
+    width: 100%;
+	height: 100%;
+}
+
+h6 {color: black;
+	text-shadow: 0px 0px 6px white;
+}
+
+
+/*
+$$\   $$\                     $$\                           
+$$$\  $$ |                    $$ |                          
+$$$$\ $$ | $$$$$$\ $$\    $$\ $$$$$$$\   $$$$$$\   $$$$$$\  
+$$ $$\$$ | \____$$\\$$\  $$  |$$  __$$\  \____$$\ $$  __$$\ 
+$$ \$$$$ | $$$$$$$ |\$$\$$  / $$ |  $$ | $$$$$$$ |$$ |  \__|
+$$ |\$$$ |$$  __$$ | \$$$  /  $$ |  $$ |$$  __$$ |$$ |      
+$$ | \$$ |\$$$$$$$ |  \$  /   $$$$$$$  |\$$$$$$$ |$$ |      
+\__|  \__| \_______|   \_/    \_______/  \_______|\__|
+*/
 nav {
 	background-color: white;
 	color: black;
-	text-align: center;
-	line-height: 4em; 
-	height: 4em;
-	margin: 0;
+	font-family: 'Syncopate', sans-serif;
+	text-align: right;
+	line-height: 1em; 
+	padding: 10px 25px;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+	height: 2em;
 }
 
 	ul {
     	list-style-type: none;
     	margin: 0;
     	padding: 0;
-}
+		}
 
 	li {
     	display: inline;
@@ -62,28 +136,122 @@ nav {
 
 	a {
   		margin-left: 30px;
-  		color: #882601;
-  		font-family: Tahoma, Verdana, Segoe, sans-serif;
+  		color: #104B88;
   		text-decoration: none;
   		font-weight: bold;
-	}
+  		}
 
+
+/*
+$$$$$$$\                              
+$$  __$$\                             
+$$ |  $$ |$$$$$$\   $$$$$$\  $$$$$$\  
+$$$$$$$  |\____$$\ $$  __$$\ \____$$\ 
+$$  ____/ $$$$$$$ |$$ |  \__|$$$$$$$ |
+$$ |     $$  __$$ |$$ |     $$  __$$ |
+$$ |     \$$$$$$$ |$$ |     \$$$$$$$ |
+\__|      \_______|\__|      \_______|
+*/
+.about-me {
+	background-color: black;
+    color: #b3b3b3;
+    font-family: 'Spinnaker', sans-serif;
+    padding: 0px 500px 0px 20px;
+    border: 10px 10px 10px 10px;
+    margin: 00px 0px 00px 0px;
+    width: 100%;
+	height: 100%;
+}
+
+
+/*
+ $$$$$$\  $$\ $$\     
+$$  __$$\ $$ |\__| 
+$$ /  $$ |$$ |$$\  $$$$$$\  $$$$$$$\ 
+$$$$$$$$ |$$ |$$ |$$  __$$\ $$  __$$\   
+$$  __$$ |$$ |$$ |$$ /  $$ |$$ |  $$ |
+$$ |  $$ |$$ |$$ |$$ |  $$ |$$ |  $$ |
+$$ |  $$ |$$ |$$ |\$$$$$$$ |$$ |  $$ |
+\__|  \__|\__|\__| \____$$ |\__|  \__| 
+                  $$\   $$ |                                                     
+                  \$$$$$$  |                                                     
+                   \______/ 
+*/
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
 
 .alignleft {
 	float: left;
 }
+
 .alignright {
 	float: right;
 }
 
-.footer-area {padding: 1px 0px 0px;
+.aligncenter {
+	text-align: center;
 }
 
-footer {
+.row {
+  clear: both;
+  margin-bottom: 0rem;
+  overflow: auto;
+}
+
+.col {
+  border: 1px none none;
+  float: left;
+  padding: 0 1rem;
+}
+.col-halfs { width: 50%;
+}
+
+
+/*
+$$$$$$$$\                   $$\                         
+$$  _____|                  $$ |                        
+$$ |    $$$$$$\   $$$$$$\ $$$$$$\    $$$$$$\   $$$$$$\  
+$$$$$\ $$  __$$\ $$  __$$\\_$$  _|  $$  __$$\ $$  __$$\ 
+$$  __|$$ /  $$ |$$ /  $$ | $$ |    $$$$$$$$ |$$ |  \__|
+$$ |   $$ |  $$ |$$ |  $$ | $$ |$$\ $$   ____|$$ |      
+$$ |   \$$$$$$  |\$$$$$$  | \$$$$  |\$$$$$$$\ $$ |      
+\__|    \______/  \______/   \____/  \_______|\__|
+*/
+.footer {
+	text-align: center;
+	top: 500px;
+	left: 0px;
+	padding: 10px 5px 5px 5px;
+	border: 0px 0px 0px 0px
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	height: 100%;
+	line-height: 20px;
 	background-color: #232323;
-	color: #dfe2db;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
-	line-height: 18px;
-	height: 12em;
-	margin: 0;
+	color: white;
+	font-family: 'Spinnaker', sans-serif;
+	
+}
+
+
+/*
+$$\      $$\ $$\                     
+$$$\    $$$ |\__|                    
+$$$$\  $$$$ |$$\  $$$$$$$\  $$$$$$$\ 
+$$\$$\$$ $$ |$$ |$$  _____|$$  _____|
+$$ \$$$  $$ |$$ |\$$$$$$\  $$ /      
+$$ |\$  /$$ |$$ | \____$$\ $$ |      
+$$ | \_/ $$ |$$ |$$$$$$$  |\$$$$$$$\ 
+\__|     \__|\__|\_______/  \_______|
+*/
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto 4em;
 }
