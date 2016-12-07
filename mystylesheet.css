@@ -1,3 +1,7 @@
+/* PLEASE NOTE: not all items are currently being utilyzed in HTML
+Documents. They are there be used I make upgrades to the site and 
+to maintain consistent design styles*/
+
 * {box-sizing: border-box; }
 html {
 }
@@ -45,9 +49,10 @@ h1 {
     background-color: #232323;
     line-height: 35px; 
 	height: 40px;
-	padding-left: 10px;
+	padding-left: 20px;
 	border: 0em;
-	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 0px
 }
 
 h2 {color: #BB4503;
@@ -65,9 +70,9 @@ h3 {color: white;
 	letter-spacing: 2px;
 	text-align: right;
 	line-height: 1em; 
-	padding: 0px 25px 0px 0px;
+	padding: 0px 0px 0px 0px;
     border: 0px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
     width: 100%;
 	height: 100%;
 
@@ -129,12 +134,19 @@ nav {
 		}
 
 	a {
-  		margin-left: 30px;
+  		margin-left: 20px;
   		color: #104B88;
   		text-decoration: none;
   		font-weight: bold;
   		}
 
+.nav2 {color: #882601; 
+	font-family: 'Jura', sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+	height: 2em;
+	margin: 0em;
+}
 
 /*
 $$$$$$$\                              
@@ -157,6 +169,16 @@ $$ |     \$$$$$$$ |$$ |     \$$$$$$$ |
 	height: 100%;
 }
 
+.figure-caption-right {
+	background-color: black;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    padding: 0px 500px 0px 20px;
+    border: 10px;
+    margin: 00px 0px 00px 0px;
+    width: 100%;
+	height: 100%;
+}
 
 /*
  $$$$$$\  $$\ $$\     
